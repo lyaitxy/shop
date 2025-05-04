@@ -1,0 +1,815 @@
+15:35:06:295  INFO 7672 --- [main] com.hmall.item.es.ElasticTest            : The following 1 profile is active: "local"
+15:35:08:300  INFO 7672 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=52ba3570-197c-3b87-8027-9c9f043adf8d
+15:35:08:557  INFO 7672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:08:561  INFO 7672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:08:566  INFO 7672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:08:672  INFO 7672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:08:706  INFO 7672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:08:713  INFO 7672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:08:718  INFO 7672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$821/0x0000000800770040] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:08:724  INFO 7672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:08:732  INFO 7672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:08:736  INFO 7672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:08:739  INFO 7672 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+15:35:08:931  INFO 7672 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:35:08:941  INFO 7672 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:35:09:102  INFO 7672 --- [main] i.s.s.a.GlobalTransactionScanner         : Initializing Global Transaction Clients ... 
+15:35:09:272  INFO 7672 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+15:35:09:918  INFO 7672 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 628020de-94f2-440d-b7dd-d6139adb65a6
+15:35:09:919  INFO 7672 --- [main] com.alibaba.nacos.common.remote.client   : [628020de-94f2-440d-b7dd-d6139adb65a6] RpcClient init label, labels = {module=naming, source=sdk}
+15:35:09:923  INFO 7672 --- [main] com.alibaba.nacos.common.remote.client   : [628020de-94f2-440d-b7dd-d6139adb65a6] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:35:09:924  INFO 7672 --- [main] com.alibaba.nacos.common.remote.client   : [628020de-94f2-440d-b7dd-d6139adb65a6] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:35:09:924  INFO 7672 --- [main] com.alibaba.nacos.common.remote.client   : [628020de-94f2-440d-b7dd-d6139adb65a6] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:35:09:925  INFO 7672 --- [main] com.alibaba.nacos.common.remote.client   : [628020de-94f2-440d-b7dd-d6139adb65a6] Try to connect to server on start up, server: {serverIp = '172.22.204.134', server main port = 8848}
+15:35:10:072  INFO 7672 --- [main] com.alibaba.nacos.common.remote.client   : [628020de-94f2-440d-b7dd-d6139adb65a6] Success to connect to server [172.22.204.134:8848] on start up, connectionId = 1746344108113_172.22.204.1_64247
+15:35:10:072  INFO 7672 --- [main] com.alibaba.nacos.common.remote.client   : [628020de-94f2-440d-b7dd-d6139adb65a6] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:35:10:072  INFO 7672 --- [main] com.alibaba.nacos.common.remote.client   : [628020de-94f2-440d-b7dd-d6139adb65a6] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$734/0x00000008004b3c40
+15:35:10:072  INFO 7672 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [628020de-94f2-440d-b7dd-d6139adb65a6] Notify connected event to listeners.
+15:35:10:200  INFO 7672 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 172.22.204.134:8099
+15:35:10:731  INFO 7672 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [628020de-94f2-440d-b7dd-d6139adb65a6] Receive server push request, request = NotifySubscriberRequest, requestId = 102
+15:35:10:749  INFO 7672 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [628020de-94f2-440d-b7dd-d6139adb65a6] Ack server push request, request = NotifySubscriberRequest, requestId = 102
+15:35:10:855  INFO 7672 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:172.22.204.134:8099,msg:< RegisterTMRequest{applicationId='item-service', transactionServiceGroup='hmall'} >
+15:35:11:604  WARN 7672 --- [NettyClientSelector_TMROLE_1_1] ServiceLoader$InnerEnhancedServiceLoader : Load [io.seata.serializer.hessian.HessianSerializer] class fail. com/caucho/hessian/io/AbstractHessianOutput
+15:35:11:958  INFO 7672 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x5edec5a5, L:/172.22.204.1:64249 - R:/172.22.204.134:8099]
+15:35:11:964  INFO 7672 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 411 ms, version:1.5.2,role:TMROLE,channel:[id: 0x5edec5a5, L:/172.22.204.1:64249 - R:/172.22.204.134:8099]
+15:35:11:964  INFO 7672 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[item-service] txServiceGroup[hmall]
+15:35:11:980  INFO 7672 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
+15:35:11:981  INFO 7672 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
+15:35:11:989  INFO 7672 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+15:35:11:989  INFO 7672 --- [main] i.s.s.a.GlobalTransactionScanner         : Resource Manager is initialized. applicationId[item-service] txServiceGroup[hmall]
+15:35:11:989  INFO 7672 --- [main] i.s.s.a.GlobalTransactionScanner         : Global Transaction Clients are initialized. 
+15:35:11:995  INFO 7672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:13:007  INFO 7672 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+15:35:13:898  INFO 7672 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+15:35:14:065  INFO 7672 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 172.22.204.134:8099
+15:35:14:066  INFO 7672 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://172.22.204.134:3306/hm-item
+15:35:14:071  INFO 7672 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:172.22.204.134:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://172.22.204.134:3306/hm-item', applicationId='item-service', transactionServiceGroup='hmall'} >
+15:35:14:252  INFO 7672 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xeee23e45, L:/172.22.204.1:64257 - R:/172.22.204.134:8099]
+15:35:14:252  INFO 7672 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 162 ms, version:1.5.2,role:RMROLE,channel:[id: 0xeee23e45, L:/172.22.204.1:64257 - R:/172.22.204.134:8099]
+15:35:17:254  INFO 7672 --- [main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+15:35:20:840  INFO 7672 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+15:35:20:994  INFO 7672 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:35:24:110  INFO 7672 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+15:35:24:189  INFO 7672 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 28a1cd37-483c-45db-877d-86174b718a7b
+15:35:24:192  INFO 7672 --- [main] com.alibaba.nacos.common.remote.client   : [28a1cd37-483c-45db-877d-86174b718a7b] RpcClient init label, labels = {module=naming, source=sdk}
+15:35:24:192  INFO 7672 --- [main] com.alibaba.nacos.common.remote.client   : [28a1cd37-483c-45db-877d-86174b718a7b] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:35:24:192  INFO 7672 --- [main] com.alibaba.nacos.common.remote.client   : [28a1cd37-483c-45db-877d-86174b718a7b] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:35:24:192  INFO 7672 --- [main] com.alibaba.nacos.common.remote.client   : [28a1cd37-483c-45db-877d-86174b718a7b] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:35:24:194  INFO 7672 --- [main] com.alibaba.nacos.common.remote.client   : [28a1cd37-483c-45db-877d-86174b718a7b] Try to connect to server on start up, server: {serverIp = '172.22.204.134', server main port = 8848}
+15:35:24:338  INFO 7672 --- [main] com.alibaba.nacos.common.remote.client   : [28a1cd37-483c-45db-877d-86174b718a7b] Success to connect to server [172.22.204.134:8848] on start up, connectionId = 1746344122380_172.22.204.1_64291
+15:35:24:339  INFO 7672 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [28a1cd37-483c-45db-877d-86174b718a7b] Notify connected event to listeners.
+15:35:24:340  INFO 7672 --- [main] com.alibaba.nacos.common.remote.client   : [28a1cd37-483c-45db-877d-86174b718a7b] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:35:24:341  INFO 7672 --- [main] com.alibaba.nacos.common.remote.client   : [28a1cd37-483c-45db-877d-86174b718a7b] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$734/0x00000008004b3c40
+15:35:24:387  INFO 7672 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:35:24:393  INFO 7672 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:35:24:456  INFO 7672 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:35:24:743  INFO 7672 --- [main] com.hmall.item.es.ElasticTest            : Started ElasticTest in 30.531 seconds (JVM running for 34.209)
+15:35:24:754  INFO 7672 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service.yaml, group=DEFAULT_GROUP
+15:35:24:755  INFO 7672 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service-local.yaml, group=DEFAULT_GROUP
+15:35:24:757  INFO 7672 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service, group=DEFAULT_GROUP
+15:35:24:927  INFO 7672 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [28a1cd37-483c-45db-877d-86174b718a7b] Receive server push request, request = NotifySubscriberRequest, requestId = 103
+15:35:24:945  INFO 7672 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [28a1cd37-483c-45db-877d-86174b718a7b] Ack server push request, request = NotifySubscriberRequest, requestId = 103
+15:35:25:657 DEBUG 7672 --- [main] c.h.item.mapper.ItemMapper.selectById    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE id=?
+15:35:25:731 DEBUG 7672 --- [main] c.h.item.mapper.ItemMapper.selectById    : ==> Parameters: 100000011127(Long)
+15:35:25:860 DEBUG 7672 --- [main] c.h.item.mapper.ItemMapper.selectById    : <==      Total: 1
+15:35:26:632  WARN 7672 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:35:26:633  WARN 7672 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:35:26:633  WARN 7672 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:35:26:634  WARN 7672 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+15:35:27:331  INFO 7672 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+15:35:27:331  INFO 7672 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@52c5a007[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+15:35:27:332  INFO 7672 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1746344122380_172.22.204.1_64291
+15:35:27:338  INFO 7672 --- [SpringContextShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@6c3bcd45[Running, pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9]
+15:35:27:346  INFO 7672 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+15:35:27:385  INFO 7672 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+15:35:27:387  INFO 7672 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0x5edec5a5, L:/172.22.204.1:64249 ! R:/172.22.204.134:8099]
+15:35:27:388  INFO 7672 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0x5edec5a5, L:/172.22.204.1:64249 ! R:/172.22.204.134:8099]
+15:35:27:389  INFO 7672 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0x5edec5a5, L:/172.22.204.1:64249 ! R:/172.22.204.134:8099]
+15:35:27:389  INFO 7672 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0x5edec5a5, L:/172.22.204.1:64249 ! R:/172.22.204.134:8099]
+15:35:27:389  INFO 7672 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0xeee23e45, L:/172.22.204.1:64257 ! R:/172.22.204.134:8099]
+15:35:27:390  INFO 7672 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x5edec5a5, L:/172.22.204.1:64249 ! R:/172.22.204.134:8099]) will closed
+15:35:27:390  INFO 7672 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0xeee23e45, L:/172.22.204.1:64257 ! R:/172.22.204.134:8099]
+15:35:27:390  INFO 7672 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0xeee23e45, L:/172.22.204.1:64257 ! R:/172.22.204.134:8099]
+15:35:27:390  INFO 7672 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x5edec5a5, L:/172.22.204.1:64249 ! R:/172.22.204.134:8099]) will closed
+15:35:27:391  INFO 7672 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0xeee23e45, L:/172.22.204.1:64257 ! R:/172.22.204.134:8099]
+15:35:27:391  INFO 7672 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xeee23e45, L:/172.22.204.1:64257 ! R:/172.22.204.134:8099]) will closed
+15:35:27:392  INFO 7672 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xeee23e45, L:/172.22.204.1:64257 ! R:/172.22.204.134:8099]) will closed
+15:50:16:771  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : The following 1 profile is active: "local"
+15:50:18:407  INFO 15700 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=52ba3570-197c-3b87-8027-9c9f043adf8d
+15:50:18:637  INFO 15700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:50:18:641  INFO 15700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:50:18:644  INFO 15700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:50:18:734  INFO 15700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:50:18:783  INFO 15700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:50:18:789  INFO 15700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:50:18:794  INFO 15700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$822/0x0000000800770440] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:50:18:800  INFO 15700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:50:18:813  INFO 15700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:50:18:819  INFO 15700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:50:18:827  INFO 15700 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+15:50:19:005  INFO 15700 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:50:19:018  INFO 15700 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:50:19:182  INFO 15700 --- [main] i.s.s.a.GlobalTransactionScanner         : Initializing Global Transaction Clients ... 
+15:50:19:348  INFO 15700 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+15:50:19:720  INFO 15700 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 63acebd3-9937-4fdf-8738-61ded043c3a2
+15:50:19:720  INFO 15700 --- [main] com.alibaba.nacos.common.remote.client   : [63acebd3-9937-4fdf-8738-61ded043c3a2] RpcClient init label, labels = {module=naming, source=sdk}
+15:50:19:724  INFO 15700 --- [main] com.alibaba.nacos.common.remote.client   : [63acebd3-9937-4fdf-8738-61ded043c3a2] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:50:19:725  INFO 15700 --- [main] com.alibaba.nacos.common.remote.client   : [63acebd3-9937-4fdf-8738-61ded043c3a2] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:50:19:726  INFO 15700 --- [main] com.alibaba.nacos.common.remote.client   : [63acebd3-9937-4fdf-8738-61ded043c3a2] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:50:19:726  INFO 15700 --- [main] com.alibaba.nacos.common.remote.client   : [63acebd3-9937-4fdf-8738-61ded043c3a2] Try to connect to server on start up, server: {serverIp = '172.22.204.134', server main port = 8848}
+15:50:19:884  INFO 15700 --- [main] com.alibaba.nacos.common.remote.client   : [63acebd3-9937-4fdf-8738-61ded043c3a2] Success to connect to server [172.22.204.134:8848] on start up, connectionId = 1746345017906_172.22.204.1_49166
+15:50:19:884  INFO 15700 --- [main] com.alibaba.nacos.common.remote.client   : [63acebd3-9937-4fdf-8738-61ded043c3a2] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:50:19:884  INFO 15700 --- [main] com.alibaba.nacos.common.remote.client   : [63acebd3-9937-4fdf-8738-61ded043c3a2] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$735/0x00000008004b3040
+15:50:19:884  INFO 15700 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [63acebd3-9937-4fdf-8738-61ded043c3a2] Notify connected event to listeners.
+15:50:19:978  INFO 15700 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 172.22.204.134:8099
+15:50:20:452  INFO 15700 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [63acebd3-9937-4fdf-8738-61ded043c3a2] Receive server push request, request = NotifySubscriberRequest, requestId = 104
+15:50:20:465  INFO 15700 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [63acebd3-9937-4fdf-8738-61ded043c3a2] Ack server push request, request = NotifySubscriberRequest, requestId = 104
+15:50:20:720  INFO 15700 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:172.22.204.134:8099,msg:< RegisterTMRequest{applicationId='item-service', transactionServiceGroup='hmall'} >
+15:50:21:547  WARN 15700 --- [NettyClientSelector_TMROLE_1_1] ServiceLoader$InnerEnhancedServiceLoader : Load [io.seata.serializer.hessian.HessianSerializer] class fail. com/caucho/hessian/io/AbstractHessianOutput
+15:50:21:603  INFO 15700 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xfb35d336, L:/172.22.204.1:49167 - R:/172.22.204.134:8099]
+15:50:21:613  INFO 15700 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 116 ms, version:1.5.2,role:TMROLE,channel:[id: 0xfb35d336, L:/172.22.204.1:49167 - R:/172.22.204.134:8099]
+15:50:21:615  INFO 15700 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[item-service] txServiceGroup[hmall]
+15:50:21:638  INFO 15700 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
+15:50:21:640  INFO 15700 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
+15:50:21:651  INFO 15700 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+15:50:21:652  INFO 15700 --- [main] i.s.s.a.GlobalTransactionScanner         : Resource Manager is initialized. applicationId[item-service] txServiceGroup[hmall]
+15:50:21:652  INFO 15700 --- [main] i.s.s.a.GlobalTransactionScanner         : Global Transaction Clients are initialized. 
+15:50:21:658  INFO 15700 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:50:22:508  INFO 15700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+15:50:23:342  INFO 15700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+15:50:23:473  INFO 15700 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 172.22.204.134:8099
+15:50:23:473  INFO 15700 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://172.22.204.134:3306/hm-item
+15:50:23:481  INFO 15700 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:172.22.204.134:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://172.22.204.134:3306/hm-item', applicationId='item-service', transactionServiceGroup='hmall'} >
+15:50:23:570  INFO 15700 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xe4815cce, L:/172.22.204.1:49173 - R:/172.22.204.134:8099]
+15:50:23:571  INFO 15700 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 74 ms, version:1.5.2,role:RMROLE,channel:[id: 0xe4815cce, L:/172.22.204.1:49173 - R:/172.22.204.134:8099]
+15:50:27:200  INFO 15700 --- [main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+15:50:30:842  INFO 15700 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+15:50:31:011  INFO 15700 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:50:33:873  INFO 15700 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+15:50:33:948  INFO 15700 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 88b20563-13f3-4c76-9f8c-b7dfbdb0435c
+15:50:33:948  INFO 15700 --- [main] com.alibaba.nacos.common.remote.client   : [88b20563-13f3-4c76-9f8c-b7dfbdb0435c] RpcClient init label, labels = {module=naming, source=sdk}
+15:50:33:949  INFO 15700 --- [main] com.alibaba.nacos.common.remote.client   : [88b20563-13f3-4c76-9f8c-b7dfbdb0435c] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:50:33:949  INFO 15700 --- [main] com.alibaba.nacos.common.remote.client   : [88b20563-13f3-4c76-9f8c-b7dfbdb0435c] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:50:33:949  INFO 15700 --- [main] com.alibaba.nacos.common.remote.client   : [88b20563-13f3-4c76-9f8c-b7dfbdb0435c] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:50:33:950  INFO 15700 --- [main] com.alibaba.nacos.common.remote.client   : [88b20563-13f3-4c76-9f8c-b7dfbdb0435c] Try to connect to server on start up, server: {serverIp = '172.22.204.134', server main port = 8848}
+15:50:34:085  INFO 15700 --- [main] com.alibaba.nacos.common.remote.client   : [88b20563-13f3-4c76-9f8c-b7dfbdb0435c] Success to connect to server [172.22.204.134:8848] on start up, connectionId = 1746345032120_172.22.204.1_49204
+15:50:34:085  INFO 15700 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [88b20563-13f3-4c76-9f8c-b7dfbdb0435c] Notify connected event to listeners.
+15:50:34:085  INFO 15700 --- [main] com.alibaba.nacos.common.remote.client   : [88b20563-13f3-4c76-9f8c-b7dfbdb0435c] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:50:34:085  INFO 15700 --- [main] com.alibaba.nacos.common.remote.client   : [88b20563-13f3-4c76-9f8c-b7dfbdb0435c] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$735/0x00000008004b3040
+15:50:34:111  INFO 15700 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:50:34:118  INFO 15700 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:50:34:179  INFO 15700 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:50:34:410  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : Started ElasticTest in 27.602 seconds (JVM running for 31.123)
+15:50:34:422  INFO 15700 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service.yaml, group=DEFAULT_GROUP
+15:50:34:423  INFO 15700 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service-local.yaml, group=DEFAULT_GROUP
+15:50:34:424  INFO 15700 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=item-service, group=DEFAULT_GROUP
+15:50:34:659  INFO 15700 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [88b20563-13f3-4c76-9f8c-b7dfbdb0435c] Receive server push request, request = NotifySubscriberRequest, requestId = 105
+15:50:34:674  INFO 15700 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [88b20563-13f3-4c76-9f8c-b7dfbdb0435c] Ack server push request, request = NotifySubscriberRequest, requestId = 105
+15:50:35:551 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:35:603 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:35:819 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:35:829 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?
+15:50:35:830 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 1000(Long)
+15:50:36:004 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:36:022  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第1页数据，共1000条
+15:50:39:126 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:39:127 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:39:155 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:39:158 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:39:158 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 1000(Long), 1000(Long)
+15:50:39:244 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:39:245  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第2页数据，共1000条
+15:50:40:306 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:40:307 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:40:325 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:40:326 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:40:328 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 2000(Long), 1000(Long)
+15:50:40:419 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:40:421  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第3页数据，共1000条
+15:50:41:031 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:41:032 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:41:065 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:41:067 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:41:067 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 3000(Long), 1000(Long)
+15:50:41:146 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:41:148  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第4页数据，共1000条
+15:50:41:592 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:41:593 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:41:615 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:41:616 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:41:616 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 4000(Long), 1000(Long)
+15:50:41:680 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:41:683  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第5页数据，共1000条
+15:50:42:063 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:42:064 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:42:088 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:42:089 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:42:089 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 5000(Long), 1000(Long)
+15:50:42:145 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:42:145  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第6页数据，共1000条
+15:50:42:476 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:42:476 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:42:516 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:42:519 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:42:520 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 6000(Long), 1000(Long)
+15:50:42:601 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:42:603  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第7页数据，共1000条
+15:50:42:985 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:42:986 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:43:009 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:43:011 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:43:013 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 7000(Long), 1000(Long)
+15:50:43:062 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:43:067  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第8页数据，共1000条
+15:50:43:389 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:43:390 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:43:420 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:43:422 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:43:422 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 8000(Long), 1000(Long)
+15:50:43:472 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:43:472  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第9页数据，共1000条
+15:50:43:812 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:43:813 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:43:842 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:43:843 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:43:843 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 9000(Long), 1000(Long)
+15:50:43:909 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:43:911  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第10页数据，共1000条
+15:50:44:231 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:44:231 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:44:254 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:44:254 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:44:256 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 10000(Long), 1000(Long)
+15:50:44:304 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:44:304  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第11页数据，共1000条
+15:50:44:553 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:44:553 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:44:583 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:44:583 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:44:585 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 11000(Long), 1000(Long)
+15:50:44:637 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:44:638  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第12页数据，共1000条
+15:50:44:914 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:44:914 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:44:939 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:44:940 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:44:940 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 12000(Long), 1000(Long)
+15:50:45:008 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:45:008  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第13页数据，共1000条
+15:50:45:210 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:45:212 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:45:234 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:45:234 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:45:234 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 13000(Long), 1000(Long)
+15:50:45:285 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:45:285  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第14页数据，共1000条
+15:50:45:522 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:45:522 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:45:547 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:45:548 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:45:548 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 14000(Long), 1000(Long)
+15:50:45:618 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:45:619  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第15页数据，共1000条
+15:50:45:896 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:45:898 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:45:922 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:45:922 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:45:922 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 15000(Long), 1000(Long)
+15:50:45:995 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:45:996  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第16页数据，共1000条
+15:50:46:377 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:46:377 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:46:401 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:46:402 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:46:402 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 16000(Long), 1000(Long)
+15:50:46:491 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:46:492  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第17页数据，共1000条
+15:50:46:781 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:46:781 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:46:805 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:46:805 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:46:807 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 17000(Long), 1000(Long)
+15:50:46:893 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:46:893  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第18页数据，共1000条
+15:50:47:118 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:47:118 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:47:139 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:47:141 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:47:141 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 18000(Long), 1000(Long)
+15:50:47:209 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:47:211  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第19页数据，共1000条
+15:50:47:506 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:47:506 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:47:529 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:47:530 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:47:530 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 19000(Long), 1000(Long)
+15:50:47:602 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:47:604  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第20页数据，共1000条
+15:50:47:812 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:47:812 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:47:834 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:47:835 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:47:835 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 20000(Long), 1000(Long)
+15:50:47:913 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:47:913  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第21页数据，共1000条
+15:50:48:096 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:48:096 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:48:121 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:48:121 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:48:122 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 21000(Long), 1000(Long)
+15:50:48:204 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:48:204  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第22页数据，共1000条
+15:50:48:352 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:48:352 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:48:392 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:48:393 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:48:394 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 22000(Long), 1000(Long)
+15:50:48:467 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:48:467  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第23页数据，共1000条
+15:50:48:679 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:48:679 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:48:700 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:48:700 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:48:700 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 23000(Long), 1000(Long)
+15:50:48:800 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:48:800  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第24页数据，共1000条
+15:50:48:952 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:48:952 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:48:973 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:48:973 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:48:973 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 24000(Long), 1000(Long)
+15:50:49:043 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:49:044  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第25页数据，共1000条
+15:50:49:240 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:49:240 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:49:260 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:49:260 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:49:261 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 25000(Long), 1000(Long)
+15:50:49:342 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:49:342  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第26页数据，共1000条
+15:50:49:537 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:49:538 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:49:562 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:49:563 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:49:563 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 26000(Long), 1000(Long)
+15:50:49:643 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:49:643  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第27页数据，共1000条
+15:50:49:772 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:49:774 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:49:793 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:49:793 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:49:793 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 27000(Long), 1000(Long)
+15:50:49:877 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:49:877  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第28页数据，共1000条
+15:50:50:017 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:50:017 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:50:041 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:50:042 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:50:042 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 28000(Long), 1000(Long)
+15:50:50:136 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:50:136  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第29页数据，共1000条
+15:50:50:313 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:50:314 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:50:341 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:50:342 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:50:342 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 29000(Long), 1000(Long)
+15:50:50:481 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:50:482  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第30页数据，共1000条
+15:50:50:766 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:50:766 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:50:791 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:50:792 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:50:792 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 30000(Long), 1000(Long)
+15:50:50:906 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:50:907  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第31页数据，共1000条
+15:50:51:063 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:51:065 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:51:096 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:51:096 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:51:098 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 31000(Long), 1000(Long)
+15:50:51:216 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:51:216  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第32页数据，共1000条
+15:50:51:440 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:51:440 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:51:467 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:51:467 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:51:469 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 32000(Long), 1000(Long)
+15:50:51:592 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:51:593  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第33页数据，共1000条
+15:50:51:857 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:51:858 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:51:885 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:51:886 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:51:886 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 33000(Long), 1000(Long)
+15:50:52:009 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:52:009  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第34页数据，共1000条
+15:50:52:183 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:52:183 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:52:215 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:52:215 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:52:217 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 34000(Long), 1000(Long)
+15:50:52:346 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:52:346  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第35页数据，共1000条
+15:50:52:560 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:52:560 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:52:614 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:52:615 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:52:616 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 35000(Long), 1000(Long)
+15:50:52:782 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:52:783  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第36页数据，共1000条
+15:50:53:095 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:53:095 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:53:129 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:53:130 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:53:131 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 36000(Long), 1000(Long)
+15:50:53:611 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:53:611  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第37页数据，共1000条
+15:50:54:047 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:54:049 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:54:323 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:54:325 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:54:326 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 37000(Long), 1000(Long)
+15:50:54:712 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:54:714  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第38页数据，共1000条
+15:50:55:190 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:55:190 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:55:253 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:55:254 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:55:254 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 38000(Long), 1000(Long)
+15:50:55:473 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:55:474  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第39页数据，共1000条
+15:50:55:684 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:55:684 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:55:734 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:55:736 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:55:736 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 39000(Long), 1000(Long)
+15:50:55:973 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:55:974  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第40页数据，共1000条
+15:50:56:478 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:56:478 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:56:536 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:56:536 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:56:538 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 40000(Long), 1000(Long)
+15:50:56:862 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:56:863  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第41页数据，共1000条
+15:50:57:133 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:57:134 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:57:175 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:57:177 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:57:178 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 41000(Long), 1000(Long)
+15:50:57:357 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:57:357  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第42页数据，共1000条
+15:50:57:570 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:57:570 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:57:596 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:57:597 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:57:597 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 42000(Long), 1000(Long)
+15:50:57:782 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:57:783  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第43页数据，共1000条
+15:50:58:184 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:58:184 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:58:209 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:58:210 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:58:210 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 43000(Long), 1000(Long)
+15:50:58:396 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:58:397  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第44页数据，共1000条
+15:50:58:674 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:58:675 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:58:719 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:58:720 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:58:721 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 44000(Long), 1000(Long)
+15:50:58:957 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:58:958  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第45页数据，共1000条
+15:50:59:273 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:50:59:273 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:50:59:335 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:50:59:335 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:50:59:337 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 45000(Long), 1000(Long)
+15:50:59:956 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:50:59:957  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第46页数据，共1000条
+15:51:00:538 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:00:539 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:00:599 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:00:600 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:00:601 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 46000(Long), 1000(Long)
+15:51:00:908 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:00:908  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第47页数据，共1000条
+15:51:01:226 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:01:227 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:01:262 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:01:264 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:01:264 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 47000(Long), 1000(Long)
+15:51:01:510 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:01:511  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第48页数据，共1000条
+15:51:01:716 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:01:717 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:01:751 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:01:752 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:01:752 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 48000(Long), 1000(Long)
+15:51:01:970 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:01:971  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第49页数据，共1000条
+15:51:03:181 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:03:181 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:03:205 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:03:206 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:03:206 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 49000(Long), 1000(Long)
+15:51:03:366 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:03:367  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第50页数据，共1000条
+15:51:04:045 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:04:045 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:04:083 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:04:084 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:04:085 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 50000(Long), 1000(Long)
+15:51:04:305 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:04:305  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第51页数据，共1000条
+15:51:05:058 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:05:058 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:05:089 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:05:089 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:05:090 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 51000(Long), 1000(Long)
+15:51:05:321 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:05:322  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第52页数据，共1000条
+15:51:05:726 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:05:727 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:05:752 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:05:753 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:05:753 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 52000(Long), 1000(Long)
+15:51:05:993 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:05:994  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第53页数据，共1000条
+15:51:06:216 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:06:216 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:06:242 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:06:242 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:06:242 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 53000(Long), 1000(Long)
+15:51:06:431 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:06:431  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第54页数据，共1000条
+15:51:06:771 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:06:772 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:06:795 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:06:795 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:06:797 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 54000(Long), 1000(Long)
+15:51:06:978 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:06:980  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第55页数据，共1000条
+15:51:07:173 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:07:173 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:07:201 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:07:202 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:07:202 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 55000(Long), 1000(Long)
+15:51:07:463 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:07:464  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第56页数据，共1000条
+15:51:07:872 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:07:872 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:07:930 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:07:932 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:07:932 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 56000(Long), 1000(Long)
+15:51:08:334 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:08:335  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第57页数据，共1000条
+15:51:09:092 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:09:094 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:09:149 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:09:151 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:09:151 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 57000(Long), 1000(Long)
+15:51:09:641 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:09:641  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第58页数据，共1000条
+15:51:10:287 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:10:288 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:10:338 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:10:339 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:10:339 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 58000(Long), 1000(Long)
+15:51:10:635 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:10:636  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第59页数据，共1000条
+15:51:10:978 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:10:978 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:11:023 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:11:024 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:11:025 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 59000(Long), 1000(Long)
+15:51:11:348 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:11:349  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第60页数据，共1000条
+15:51:11:900 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:11:901 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:11:948 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:11:949 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:11:950 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 60000(Long), 1000(Long)
+15:51:12:256 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:12:256  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第61页数据，共1000条
+15:51:12:773 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:12:775 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:12:817 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:12:818 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:12:818 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 61000(Long), 1000(Long)
+15:51:13:202 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:13:204  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第62页数据，共1000条
+15:51:13:868 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:13:868 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:13:918 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:13:919 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:13:919 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 62000(Long), 1000(Long)
+15:51:14:290 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:14:291  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第63页数据，共1000条
+15:51:14:860 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:14:860 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:14:913 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:14:914 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:14:915 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 63000(Long), 1000(Long)
+15:51:15:210 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:15:211  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第64页数据，共1000条
+15:51:15:666 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:15:666 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:15:695 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:15:696 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:15:696 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 64000(Long), 1000(Long)
+15:51:15:956 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:15:956  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第65页数据，共1000条
+15:51:16:387 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:16:387 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:16:438 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:16:439 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:16:439 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 65000(Long), 1000(Long)
+15:51:16:714 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:16:715  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第66页数据，共1000条
+15:51:17:276 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:17:278 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:17:316 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:17:318 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:17:318 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 66000(Long), 1000(Long)
+15:51:17:615 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:17:617  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第67页数据，共1000条
+15:51:18:069 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:18:070 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:18:115 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:18:115 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:18:116 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 67000(Long), 1000(Long)
+15:51:18:460 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:18:460  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第68页数据，共1000条
+15:51:18:730 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:18:731 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:18:760 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:18:761 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:18:761 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 68000(Long), 1000(Long)
+15:51:19:017 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:19:017  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第69页数据，共1000条
+15:51:19:361 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:19:361 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:19:393 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:19:393 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:19:393 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 69000(Long), 1000(Long)
+15:51:19:714 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:19:715  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第70页数据，共1000条
+15:51:19:897 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:19:897 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:19:922 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:19:923 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:19:924 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 70000(Long), 1000(Long)
+15:51:20:233 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:20:233  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第71页数据，共1000条
+15:51:20:423 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:20:423 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:20:462 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:20:463 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:20:464 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 71000(Long), 1000(Long)
+15:51:20:905 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:20:905  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第72页数据，共1000条
+15:51:21:404 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:21:404 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:21:432 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:21:433 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:21:433 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 72000(Long), 1000(Long)
+15:51:21:690 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:21:690  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第73页数据，共1000条
+15:51:21:896 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:21:896 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:21:926 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:21:926 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:21:927 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 73000(Long), 1000(Long)
+15:51:22:202 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:22:202  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第74页数据，共1000条
+15:51:22:430 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:22:430 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:22:456 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:22:456 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:22:457 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 74000(Long), 1000(Long)
+15:51:22:721 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:22:721  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第75页数据，共1000条
+15:51:23:011 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:23:011 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:23:041 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:23:043 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:23:043 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 75000(Long), 1000(Long)
+15:51:23:352 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:23:353  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第76页数据，共1000条
+15:51:23:557 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:23:559 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:23:586 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:23:587 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:23:587 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 76000(Long), 1000(Long)
+15:51:23:901 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:23:901  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第77页数据，共1000条
+15:51:24:211 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:24:212 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:24:243 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:24:244 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:24:244 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 77000(Long), 1000(Long)
+15:51:24:560 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:24:560  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第78页数据，共1000条
+15:51:25:099 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:25:099 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:25:147 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:25:148 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:25:148 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 78000(Long), 1000(Long)
+15:51:25:526 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:25:527  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第79页数据，共1000条
+15:51:25:961 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:25:962 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:25:990 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:25:991 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:25:991 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 79000(Long), 1000(Long)
+15:51:26:299 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:26:300  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第80页数据，共1000条
+15:51:26:488 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:26:489 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:26:533 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:26:533 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:26:535 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 80000(Long), 1000(Long)
+15:51:26:930 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:26:930  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第81页数据，共1000条
+15:51:32:162 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:32:162 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:32:192 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:32:193 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:32:194 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 81000(Long), 1000(Long)
+15:51:32:635 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:32:636  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第82页数据，共1000条
+15:51:33:672 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:33:672 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:33:701 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:33:702 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:33:703 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 82000(Long), 1000(Long)
+15:51:34:021 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:34:022  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第83页数据，共1000条
+15:51:34:304 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:34:304 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:34:331 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:34:332 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:34:333 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 83000(Long), 1000(Long)
+15:51:34:620 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:34:621  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第84页数据，共1000条
+15:51:34:806 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:34:807 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:34:832 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:34:834 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:34:834 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 84000(Long), 1000(Long)
+15:51:35:130 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:35:130  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第85页数据，共1000条
+15:51:35:672 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:35:673 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:35:706 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:35:706 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:35:707 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 85000(Long), 1000(Long)
+15:51:36:068 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:36:068  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第86页数据，共1000条
+15:51:36:297 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:36:297 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:36:333 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:36:334 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:36:335 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 86000(Long), 1000(Long)
+15:51:36:733 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:36:734  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第87页数据，共1000条
+15:51:37:119 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:37:120 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:37:152 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:37:153 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:37:154 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 87000(Long), 1000(Long)
+15:51:37:467 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+15:51:37:467  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第88页数据，共1000条
+15:51:37:773 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:37:774 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:37:806 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:37:807 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+15:51:37:807 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 88000(Long), 1000(Long)
+15:51:38:280 DEBUG 15700 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 475
+15:51:38:280  INFO 15700 --- [main] com.hmall.item.es.ElasticTest            : 加载第89页数据，共475条
+15:51:38:379 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item WHERE (status = ?)
+15:51:38:380 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:51:38:411 DEBUG 15700 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:51:38:459  WARN 15700 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:51:38:460  WARN 15700 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:51:38:460  WARN 15700 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:51:38:462  WARN 15700 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+15:51:38:846  INFO 15700 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+15:51:38:846  INFO 15700 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@68554be7[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+15:51:38:847  INFO 15700 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1746345032120_172.22.204.1_49204
+15:51:38:867  INFO 15700 --- [SpringContextShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@197b2f52[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 22]
+15:51:38:888  INFO 15700 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+15:51:38:983  INFO 15700 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+15:51:38:987  INFO 15700 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0xfb35d336, L:/172.22.204.1:49167 ! R:/172.22.204.134:8099]
+15:51:38:987  INFO 15700 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0xfb35d336, L:/172.22.204.1:49167 ! R:/172.22.204.134:8099]
+15:51:38:987  INFO 15700 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0xfb35d336, L:/172.22.204.1:49167 ! R:/172.22.204.134:8099]
+15:51:38:996  INFO 15700 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0xfb35d336, L:/172.22.204.1:49167 ! R:/172.22.204.134:8099]
+15:51:38:997  INFO 15700 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xfb35d336, L:/172.22.204.1:49167 ! R:/172.22.204.134:8099]) will closed
+15:51:38:997  INFO 15700 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xfb35d336, L:/172.22.204.1:49167 ! R:/172.22.204.134:8099]) will closed
+15:51:39:000  INFO 15700 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0xe4815cce, L:/172.22.204.1:49173 ! R:/172.22.204.134:8099]
+15:51:39:001  INFO 15700 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0xe4815cce, L:/172.22.204.1:49173 ! R:/172.22.204.134:8099]
+15:51:39:001  INFO 15700 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0xe4815cce, L:/172.22.204.1:49173 ! R:/172.22.204.134:8099]
+15:51:39:005  INFO 15700 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0xe4815cce, L:/172.22.204.1:49173 ! R:/172.22.204.134:8099]
+15:51:39:005  INFO 15700 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xe4815cce, L:/172.22.204.1:49173 ! R:/172.22.204.134:8099]) will closed
+15:51:39:005  INFO 15700 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xe4815cce, L:/172.22.204.1:49173 ! R:/172.22.204.134:8099]) will closed
