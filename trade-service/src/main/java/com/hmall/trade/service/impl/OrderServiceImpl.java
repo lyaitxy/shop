@@ -93,6 +93,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
 
         // 4.清理购物车商品, 获取用户信息
         rabbitTemplate.convertAndSend("trade.topic", "order.create", itemIds, new MessagePostProcessor() {
+            // 消息的后置处理器，将发送内容包装为Message后，再进行处理
             @Override
             public Message postProcessMessage(Message message) throws AmqpException {
                 Long userId = UserContext.getUser();

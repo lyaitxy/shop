@@ -69,6 +69,7 @@ public class PayOrderServiceImpl extends ServiceImpl<PayOrderMapper, PayOrder> i
         }
         // TODO 5.修改订单状态
 //        tradeClient.markOrderPaySuccess(po.getBizOrderNo());
+        // 这里加一个try catch，让异步操作对原来的业务没用影响
         try {
             rabbitTemplate.convertAndSend("pay.direct", "pay.success", po.getBizOrderNo());
         } catch (Exception e) {
@@ -83,6 +84,7 @@ public class PayOrderServiceImpl extends ServiceImpl<PayOrderMapper, PayOrder> i
                 .eq(PayOrder::getId, id)
                 // 支付状态的乐观锁判断
                 .in(PayOrder::getStatus, PayStatus.NOT_COMMIT.getValue(), PayStatus.WAIT_BUYER_PAY.getValue())
+                // update执行时，指明了主键id，会加行级锁
                 .update();
     }
 

@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ConditionalOnClass(value = {MessageConverter.class, RabbitTemplate.class})
+@ConditionalOnClass(value = {MessageConverter.class, RabbitTemplate.class}) // 并不是所有的服务都有rabbitmq的依赖
 public class MqConfig {
 
     @Bean
